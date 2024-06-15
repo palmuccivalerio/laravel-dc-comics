@@ -4,7 +4,7 @@
     <h1>
         Lista dei fumetti
     </h1>
-
+    <a href="{{route("comics.create")}}">Crea nuovo fumetto</a>
     <table class="table">
         <thead>
             <tr>
