@@ -39,6 +39,11 @@
       </div>
 
       <div class="mb-3">
+    <label class="form-label" for="sale_date">Datepicker</label>
+    <input type="date" id="sale_date" name="sale_date">
+</div>
+
+      <div class="mb-3">
         <label for="description" class="form-label">Descrizione</label>
         <textarea class="form-control" id="description" name="description" rows="3"></textarea>
       </div>
