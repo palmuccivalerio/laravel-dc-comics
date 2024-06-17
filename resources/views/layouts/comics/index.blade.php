@@ -23,6 +23,11 @@
                 <td><a href="{{route('comics.show',['comic'=>$item->id])}}">Dettagli</a>
             
                 <a href="{{route('comics.edit',['comic'=>$item->id])}}">modifica</a>
+                <form action="{{ route('comics.destroy', ['comic' => $item->id])}}" method="POST">
+                @csrf
+                @method('DELETE')
+                <button>cancella</button>
+              </form>
             </td>
             </tr>    
             @endforeach
