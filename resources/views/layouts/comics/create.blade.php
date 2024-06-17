@@ -17,9 +17,9 @@
         <label for="type" class="form-label">Tipologia</label>
         <select class="form-select" id="type" name="type">
           <option selected>Seleziona</option>
-          <option value="lunga">anime</option>
-          <option value="corta">azione</option>
-          <option value="cortissima">fantasy</option>
+          <option value="anime">anime</option>
+          <option value="azione">azione</option>
+          <option value="fantasy">fantasy</option>
         </select>
       </div>
 
